@@ -1,0 +1,15 @@
+.sub-title {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+}
+
+.sub-title::after {
+    display: block;
+    height: .25rem;
+    background-color: #0000005b;
+    content: " ";
+    width: 4rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}

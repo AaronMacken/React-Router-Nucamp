@@ -1,0 +1,38 @@
+.content-wrapper,
+.example-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content-wrapper {
+    padding: 1rem;
+}
+
+.increment-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin: 0 1rem;
+}
+
+.btn-ghost {
+    border: 1px solid #4dad44;
+    color: #44ad50;
+}
+
+.btn-ghost:hover {
+    color: #13761e;
+    border: 1px solid #13761e;
+}
